@@ -1,0 +1,8 @@
+.calculadora{
+  background-color:  rgb(66, 65, 65)
+}
+.display-number{
+  background-color: white;
+  height: 40px;
+  width: 250px;
+}
