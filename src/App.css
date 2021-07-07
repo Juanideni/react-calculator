@@ -1,8 +1,77 @@
+
+
 .calculadora{
-  background-color:  rgb(66, 65, 65)
+  padding:1% 5% 3% 5%;
+  background-color: rgb(26, 26, 26);
+  border-radius: 5%;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  width: 200px; 
+  height: 400px; 
+  margin-top: -300px; 
+  margin-left: -300px; 
 }
 .display-number{
-  background-color: white;
+  margin: 70px 0px 0px -50px;
+  background-color: rgb(26, 26, 26);
+  border: 1px solid rgb(26, 26, 26);
+  color: rgb(167, 73, 255);
+  text-align: right;
+  font-weight: bold;
+  font-size: 30px;
+  width: 300px;
+  height: 50px;
+}
+.borderline{
+  margin: 0px 0px 0px -90px;
+  width: 380px;
+}
+.table{
+  margin: 40px 0px 0px -50px;
+  position: fixed;
+}
+.special-btn {
+  background-color: rgb(26, 26, 26);
+  border: 1px solid rgb(26, 26, 26);
+  color:rgb(167, 73, 255);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 2s;
+  width: 70px;
   height: 40px;
-  width: 250px;
+}
+.special-btn:hover{
+  color: rgb(26, 26, 26);
+  background-color:rgb(167, 73, 255);
+}
+.number-btn{
+  background-color: rgb(26, 26, 26);
+  border: 1px solid rgb(26, 26, 26);
+  color:white;
+  transition: 2s;
+  width: 70px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.number-btn:hover{
+  color: rgb(26, 26, 26);
+  background-color:white;
+}
+
+.history{
+  padding:1% 5% 3% 5%;
+  background-color: rgb(26, 26, 26);
+  border-radius: 5%;
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  width: 100px; 
+  height: 400px; 
+  margin-top: -300px; 
+  margin-left: 60px; 
+}
+.result{
+  color: white;
 }
